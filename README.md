@@ -1,11 +1,14 @@
 # Lottie Test
+Native Android animation using the library [Lottie from Airbnb](https://github.com/airbnb/lottie-android)
 
 ![snapshot](https://user-images.githubusercontent.com/2035397/30176615-f7af04b6-93b7-11e7-8bdc-be55e4cc0c6d.gif)
 
 ## Overview
 
-[Lottie](https://github.com/airbnb/lottie-android) is a library for Android that parses [Adobe After Effects](http://www.adobe.com/products/aftereffects.html) animations exported as json with [bodymovin](https://github.com/bodymovin/bodymovin) and renders the vector animations natively.
+[Adobe After Effects](http://www.adobe.com/products/aftereffects.html) animations can, with the use of the [bodymovin](https://github.com/bodymovin/bodymovin) plugin, be exported as JSON parsed by [Lottie](https://github.com/airbnb/lottie-android), a library for Android that renders vector animation natively.
 
-## Alternative
+## Alternative ([AnimatedVectorDrawableTest repo](https://github.com/domingl/AnimatedVectorDrawableTest))
 
-Gradient animations require the use of Lottie. If the animation is not as complex, the core Android format [AnimatedVectorDrawable](https://developer.android.com/reference/android/graphics/drawable/AnimatedVectorDrawable.html) is an alternative approach.
+Non-core animations such as gradient require the use of Lottie.
+
+Core animations (opacity, paths, solid fills etc.) could gain a performance improvement when using [AnimatedVectorDrawable](https://developer.android.com/reference/android/graphics/drawable/AnimatedVectorDrawable.html). Starting from API 25, AnimatedVectorDrawable runs on RenderThread as opposed to on UI thread, meaning animations remain smooth even when there is heavy UI thread workload.
