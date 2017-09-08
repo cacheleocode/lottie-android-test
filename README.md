@@ -1,7 +1,7 @@
 # Lottie Test
 Native Android animation using the library [Lottie from Airbnb](https://github.com/airbnb/lottie-android)
 
-![snapshot](https://user-images.githubusercontent.com/2035397/30176615-f7af04b6-93b7-11e7-8bdc-be55e4cc0c6d.gif)
+![snapshot](https://user-images.githubusercontent.com/2035397/30226652-ab05c38c-948b-11e7-8f0e-5b241a2b5e42.gif)
 
 ## Overview
 
