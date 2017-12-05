@@ -1,4 +1,4 @@
-# Lottie Test
+# Lottie Android Test
 Native Android animation using the library [Lottie from Airbnb](https://github.com/airbnb/lottie-android)
 
 ![snapshot](https://user-images.githubusercontent.com/2035397/30226652-ab05c38c-948b-11e7-8f0e-5b241a2b5e42.gif)
@@ -21,5 +21,5 @@ Core animations (opacity, paths, solid fills etc.) could gain a performance impr
 
 ## Related
 
-* [The Airbnb Tool That’s Changing UI Design](https://www.fastcodesign.com/90137495/the-airbnb-tool-thats-changing-ui-design) - Uber, Google, Instacart, and others are all adopting Airbnb’s prototyping tool, Lottie.
+* [The Airbnb Tool That's Changing UI Design](https://www.fastcodesign.com/90137495/the-airbnb-tool-thats-changing-ui-design) - Uber, Google, Instacart, and others are all adopting Airbnb's prototyping tool, Lottie.
 * [The Future of Lottie](https://airbnb.design/the-future-of-lottie/) - Our community-driven vision for our animation tool.
