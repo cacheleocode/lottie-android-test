@@ -1,4 +1,4 @@
-package com.example.domingl.lottietest;
+package com.example.domingl.lottie_android_test;
 
 import org.junit.Test;
 
